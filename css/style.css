@@ -75,7 +75,11 @@ nav ul li a{
     width: 90vw;
     padding-left: 3rem;
 }
-
+.scale:hover{
+    transform: scale(1.2 , 1.2);
+    transition: transform 2s;
+    cursor: pointer;
+}
 .texto_parrafoindex2{
     font-size: 3rem;
     color: black;
